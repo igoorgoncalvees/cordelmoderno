@@ -13,13 +13,14 @@
 * {
     margin: 0px;
     padding: 0px;   
-    font-size: 1em;
+    
+      
 }
 
-html, body {
-    min-height: 100Vh;
+html, body {    
     background-color: darkgray;
     font-family: var(--fonte1);
+    height: 100%;
 }
 
 .cabecalho {
@@ -46,7 +47,8 @@ a {
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: underline red ;
+    
 }
 
 div {
@@ -101,7 +103,13 @@ div p {
 
 footer {
     background-color: black;
+    
+         
+}
+
+footer p {
     color: white;
     text-align: center;
-    padding: 10px;    
+    padding: 20px;   
+
 }
